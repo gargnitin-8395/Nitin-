@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payemnt mode</title>
+    <script src="https://kit.fontawesome.com/12afdb7875.js" crossorigin="anonymous"></script>
+    <style>
+    body{
+        background-image: url('images/login.jpeg');
+    }
+    h1{
+        margin-top: 50px;
+        margin-left: 150px;
+        color:white;
+    }
+    #one{
+        background-color: beige;
+        height:550px;
+        width:1000px;
+        margin-left: 150px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    .address{
+        margin-left: 20px;
+    }
+    .payment{
+        margin-left: 500px;
+        margin-top: -425px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Pay to Place Your Order</h1>
+    <div id="one">
+        <div class="address">
+            <h3>Address</h3>
+            <form>
+                &nbsp;<label>First Name</label><br><br>&nbsp;
+                <input type="text" placeholder="" style="width:400px;" /><br><br>&nbsp;
+                <label>Enter your order code</label><br><br>&nbsp;
+                <input type="text" placeholder=""  style="width:200px;"/>
+                <label>Quantity</label>&nbsp;
+                <input type="text" placeholder=""  style="width:130px;"/><br><br><i class="far fa-envelope"></i>&nbsp;
+                <label>Email</label><br>
+                <br>&nbsp;
+                <input type="email" placeholder="" style="width:400px;" /><br><br><i class="far fa-address-card"></i>&nbsp;
+                <label>Address</label><br><br>&nbsp;
+                <input type="text" placeholder="" style="width:400px;"/><br><br><i class="fas fa-city"></i>&nbsp;
+                <label>City</label><br><br>&nbsp;
+                <input type="text" placeholder="" style="width:400px;"/><br><br><i class="fas fa-city"></i>&nbsp;
+                <label>State</label><br><br>&nbsp;
+                <input type="text" placeholder="" />&nbsp;&nbsp;
+                <label>pincode</label>
+                <input type="text" placeholder="" /><br><br>&nbsp;
+        </div>
+        <div class="payment">
+            <h2>Payment by card :</h2>
+            <h3>Card details:</h3>
+            <i class="fas fa-credit-card"></i>
+            &nbsp;<label>Card holder Name</label><br><br>&nbsp;
+                <input type="text" placeholder="" style="width:400px;" /><br><br>&nbsp;
+                &nbsp;<label>Credit card number</label><br><br>&nbsp;
+                <input type="text" placeholder="" style="width:400px;" /><br><br>&nbsp;
+                &nbsp;<label>Expiry month</label><br><br>&nbsp;
+                <input type="text" placeholder="" style="width:400px;" /><br><br>&nbsp;
+                &nbsp;<label>Expiry year</label><br><br>&nbsp;
+                <input type="text" placeholder="" style="width:200px;" />&nbsp;
+                &nbsp;<label>Expiry year</label>&nbsp;
+                <input type="text" placeholder="" style="width:100px;" /><br><br>&nbsp;
+        </div>
+        <script> 
+
+            function printPopUp() { 
+      
+                alert("Your Order is succesfully placed! and you get a mail on your mail id ") ;
+      
+          
+            } 
+        </script> 
+        <center>
+        <a href="menu.html"><button class="button" onClick="printPopUp()" style="background-color:palevioletred; width:300px; text-align: center; border-radius: 10px; font-size: 20px;">Submit</button></a>
+    </div>
+</body>
+</html>
